@@ -18,10 +18,30 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <nav>
-          <h1>
+        <nav
+          style={{
+            marginTop: "30px",
+            marginBottom: "0px",
+            marginLeft: "10px",
+            marginRight: "10px",
+            padding: "0px",
+          }}
+        >
+          <h1
+            style={{
+              textAlign: "center",
+            }}
+          >
             <Link href="/">🚀 philpaolella.com</Link>
           </h1>
+          <h3
+            style={{
+              paddingTop: "20px",
+              textAlign: "center",
+            }}
+          >
+            PORTFOLIO - AWARD WINNING
+          </h3>
         </nav>
         {children}
       </body>

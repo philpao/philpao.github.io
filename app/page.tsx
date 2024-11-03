@@ -25,9 +25,9 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
-      <main>
+      <main style={{ margin: "0px", padding: "10px" }}>
         <div className="lg:hidden">
-          <div className="grid grid-cols-1 gap-4">
+          <div className="grid grid-cols-1 gap-4" style={{ paddingTop: "0px" }}>
             {data.projects.map((exhibit, i) => (
               <div key={i} className="border-b border-gray-400">
                 <div className="p-4">
